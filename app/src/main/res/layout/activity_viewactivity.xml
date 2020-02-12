@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addnotes">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="20dp"
+            app:cardElevation="@dimen/cardview_default_radius"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:weightSum="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_marginTop="40dp"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/todo"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"/>
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:id="@+id/title"
+                            android:background="@drawable/round"
+                            android:layout_marginHorizontal="20dp"
+                            android:hint="Title"
+                            android:layout_marginTop="40dp"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                        <EditText
+                            android:paddingLeft="10dp"
+                            android:id="@+id/description"
+                            android:background="@drawable/round"
+                            android:layout_marginHorizontal="20dp"
+                            android:hint="Description"
+                            android:layout_marginTop="40dp"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                        <Button
+
+                            android:id="@+id/update"
+                            android:padding="10dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/buttonround"
+                            android:textColor="@android:color/white"
+                            android:text="Update"
+                            android:layout_marginHorizontal="50dp"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                        <Button
+
+                            android:id="@+id/delete"
+                            android:padding="10dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/buttonround"
+                            android:textColor="@android:color/white"
+                            android:text="Delete"
+                            android:layout_marginHorizontal="50dp"
+                            android:layout_weight="0.5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+<!--        <ImageView-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:src="@drawable/todo"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="100dp"/>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/title"-->
+<!--            android:hint="Title"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/description"-->
+<!--            android:hint="Add Description"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="100dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/update"-->
+<!--            android:layout_marginHorizontal="40dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@android:color/holo_green_dark"-->
+<!--            android:text="Update"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/delete"-->
+<!--            android:layout_marginHorizontal="40dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:textSize="20dp"-->
+<!--            android:background="@android:color/holo_green_dark"-->
+<!--            android:text="Delete"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="60dp"/>-->
+
+
+
+
+</LinearLayout>
